@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 export const Sender = () => {
   const [socket, setSocket] = useState<WebSocket | null>(null);
-  const [pc, setPC] = useState<RTCPeerConnection | null>(null);
 
   useEffect(() => {
     const socket = new WebSocket("ws://localhost:8080");
@@ -32,7 +31,6 @@ export const Sender = () => {
     };
 
     const pc = new RTCPeerConnection();
-    setPC(pc);
     pc.onicecandidate = (event) => {
       if (event.candidate) {
         socket?.send(
