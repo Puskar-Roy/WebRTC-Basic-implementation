@@ -16,7 +16,7 @@
 
 ## About This Project 🌟
 
-Its a Web RTC Example of p2p
+Its a Simple one way video streaming MERN stack web application.
 
 ## Architecture of WebRTC 💻
 
