@@ -18,7 +18,7 @@
 
 ## About This Project 🌟
 
-Its a Simple one way video streaming MERN stack web application.
+Basic Real-time video streaming using WebRTC and WebSocket with React.
 
 ## Architecture of WebRTC 💻
 
