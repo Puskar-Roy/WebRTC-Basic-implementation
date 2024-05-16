@@ -9,6 +9,8 @@
   </a>
   
 <h3 align="center">WebRTC Basic implementation 💻 </h3>
+
+![webrtc](./docs/assets/Web-RTC-Diagram.png)
   
 </div>
 
